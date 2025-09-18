@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "History"
+    url: /pages/history/
+  - title: "Activities"
+    url: /pages/activities/
+  - title: "Dining"
+    url: /pages/dining/
+  - title: "Blog"
+    url: /blog/

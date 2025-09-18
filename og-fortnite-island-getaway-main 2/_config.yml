@@ -1,0 +1,49 @@
+title: "Fortnite OG Island Getaway"
+description: "Vacation at classic OG locations reimagined as resorts."
+url: "https://Jlin25-stlaw.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "neon"
+
+# Author
+author:
+  name: "J’Lin Brown"
+  avatar: "/assets/images/author.jpg"
+  bio: "Tour guide to the OG map."
+  location: "CT"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Make sure posts show author profile/byline
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      toc: false
+      header:
+        overlay_filter: 0.35
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: false
+      header:
+        overlay_filter: 0.3
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
